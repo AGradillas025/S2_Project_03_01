@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Champagne;
-    src: url('cac_champagne.ttf') format("woff"),
+    src: url('cac_champagne.woff') format("woff"),
         url('cac_champagne.ttf') format('ttf');
 }
 
@@ -30,6 +30,7 @@
    Filename: ph_styles.css
 
 */
+/* For the Structural Styles I added in a HTML, body, header, paragraph, body>paragraph, and a address anadded in 3 background colors for the first 3 and a font-family in the second one and added in some padding and margin space, font size, and text allignment. */
 /* Structural Styles */
 html {
     background-color: hsl(91, 8%, 56%);
@@ -47,7 +48,6 @@ header {
 p {
     margin: 0px;
     padding: 5px 25px 25px 25px;
-    text-align: center;
 }
 
 body>p {
@@ -63,6 +63,7 @@ address {
     text-align: center;
 }
 
+/* The Navigation Styles neede a Nav a and a nav a:link, nav a:visited and a nav a:hover, nav a:active. Within those nav's I put in a font-family for the first one and padding for the top and bottom. While for the last 2 nav a's i changed the color and removed the underline and also changed the beckground color. */
 /* Navigation Styles */
 nav a {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -77,21 +78,19 @@ nav a:visited {
     background-color: hsla(0, 0%, 42%, 0.4);
 }
 
-nav a:active,
-nav a:hover {
+nav a:hover,
+nav a:active {
     color: hsla(0, 0%, 100%, 0.7);
     background-color: hsla(0, 0%, 42%, 0.7);
 }
 
+/* The Section Styles had the section.playbill h1, and section#play1-4, and section#play 1-4 h1. For the playbill there is a font-sizeand font-weight, also the padding and margin. For the section#play 1-4 the background color was changed, and for the section#play 1-4 h1 the font-family was changed in which i was frustrated with one of the fonts and found ou I was missing a letter in it. */
 /* Section Styles */
 section.playbill h1 {
     font-size: 3em;
     font-weight: normal;
     margin: 0px;
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    padding: 20px 0px 10px 20px;
 }
 
 section#play1 {
@@ -115,17 +114,18 @@ section#play1 h1 {
 }
 
 section#play2 h1 {
-    font-family: Grung, 'Times New Roman', Times, serif;
+    font-family: Grunge, 'Times New Roman', Times, serif;
 }
 
 section#play3 h1 {
-    font-family: Impact, charcoal, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 section#play4 h1 {
     font-family: Dobkin, cursive;
 }
 
+/* For the Description List Styles I added in dt and dd. In which for the dt the font-size, font-weight, and color was changed. Lastly, for the dd I changed the font-size and margin left and bottom. */
 /* Description List Styles */
 dt {
     font-size: 1.3em;
